@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+body {
+    /* font-family: 'Roboto Condensed', sans-serif; */
+    font-family: var(--font-arial);
+    font-size: var(--fs-12);
+    background-color: var(--gray);
+}
+
+.menu a {
+    /* background-color: var(--blue); */
+    color: var(--white);
+    text-decoration: none;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+/* nav .promocional {
+    text-align: right;
+}
+
+nav .promocional img {
+    width: 100%;
+    min-width: 300px;
+} */
+
+/* Carousel */
+.carousel {
+    height: 100%;
+    min-height: 500px;
+    background-image: url(/img/banner/61vMcktz42L._SX3000_.jpg);
+    background-position: top;
+    background-size: cover;
+    position: relative;
+}
+
+/* section */
+section {
+    background-image: linear-gradient(transparent, var(--gray) 30%);
+    position: relative;
+    top: -250px;
+}
+
+/* Produtos */
+.produto {
+    padding: 0 5px;
+}
+
+.produto a {
+    text-decoration: none;
+    color: var(--black);
+}
+
+.produto .valor span {
+    text-decoration: line-through;
+}
+
+.produto .descricao {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+}
+
+.produto-comum,
+.produto-amazon,
+.produto-noticia,
+.produto-categoria,
+.produto-item {
+    padding: 15px;
+    background-color: var(--white);
+    /* height: 100%;
+    min-height: 300px; */
+    height: 400px;
+    position: relative;
+}
+
+.produto-comum .foto {
+    height: 60%;
+    overflow: hidden;
+    text-align: center;
+}
+
+.produto-amazon div {
+    width: 30%;
+    float: left;
+}
+
+.produto-item div {
+    background-color: aqua;
+    height: 100%;
+    min-height: 130px;
+    max-height: 10px;
+    margin-bottom: 25px;
+}
+
+.saiba-mais {
+    width: 100%;
+    padding: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.saiba-mais a {
+    color: var(--green);
+    font-weight: 600;
+}
+
+.saiba-mais a:hover {
+    color: var(--orange);
+    text-decoration: underline;
+}

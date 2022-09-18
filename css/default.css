@@ -1,0 +1,135 @@
+/*reset*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*grid*/
+.col-1 {
+    width: 8.333%;
+}
+
+.col-2 {
+    width: 16.666%;
+}
+
+.col-3 {
+    width: 24.99%;
+}
+
+.col-4 {
+    width: 33.32%;
+}
+
+.col-5 {
+    width: 41.665%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.331%;
+}
+
+.col-8 {
+    width: calc(8.333% * 8);
+    /*66.664%*/
+}
+
+.col-9 {
+    width: calc(8.333% * 9);
+    /*74.997%;*/
+}
+
+.col-10 {
+    width: calc(8.333% * 10);
+    /*83.33%;*/
+}
+
+.col-11 {
+    width: calc(8.333% * 11);
+    /*91.663%;*/
+}
+
+.col-12 {
+    width: calc(8.333% * 12);
+    /*100%*/
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 10px;
+    /* border: 1px solid red; */
+}
+
+/*equivalente ao clearfix*/
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.right {
+    text-align: right;
+    float: right;
+}
+
+.left {
+    text-align: left;
+    float: left;
+}
+
+.center {
+    text-align: center;
+    margin: auto;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.p-1 {
+    padding: 5%;
+}
+
+.px-1 {
+    padding: 0 5%;
+}
+
+.py-1 {
+    padding: 5% 0;
+}
+
+.m-1 {
+    margin: 5%;
+}
+
+.mx-1 {
+    margin: 0 5%;
+}
+
+.my-1 {
+    margin: 5% 0;
+}
+
+.container {
+    width: 100%;
+    min-width: 360px;
+    max-width: 1280px;
+    margin: auto;
+}
+
+@media (max-width: 460px) {
+    [class*="col-"] {
+        width: 100%;
+    }
+}
+
+@media (max-width: 760px) {
+    [class*="col-"] {
+        width: 100%;
+    }
+}
