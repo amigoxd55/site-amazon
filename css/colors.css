@@ -1,0 +1,55 @@
+.black {
+    color: var(--black);
+}
+
+.bg-black {
+    background-color: var(--black);
+}
+
+.white {
+    color: var(--white);
+}
+
+.bg-white {
+    background-color: var(--white);
+}
+
+.gray {
+    color: var(--gray);
+}
+
+.bg-gray {
+    background-color: var(--gray);
+}
+
+.gold {
+    color: var(--gold);
+}
+
+.bg-gold {
+    background-color: var(--gold);
+}
+
+.blue {
+    color: var(--blue);
+}
+
+.bg-blue {
+    background-color: var(--blue);
+}
+
+.blue-dark {
+    color: var(--blue-dark);
+}
+
+.bg-blue-dark {
+    background-color: var(--blue-dark);
+}
+
+.red {
+    color: var(--red);
+}
+
+.bg-red {
+    background-color: var(--red);
+}

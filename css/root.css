@@ -1,0 +1,16 @@
+:root {
+    --black: #222;
+    --white: #fff;
+    --gray: #eaeded;
+    --gold: #febd69;
+    --blue: #232f3f;
+    --blue-dark: #131921;
+    --red: #f00;
+    --red-dark: rgb(124, 11, 11);
+    --green: #85bbc4;
+    --orange: rgb(208, 82, 82);
+
+    --fs-12: 12px;
+    --font-roboto: 'Roboto Condensed', sans-serif;
+    --font-arial: Arial, Helvetica, sans-serif;
+}
