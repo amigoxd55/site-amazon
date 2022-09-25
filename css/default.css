@@ -122,6 +122,28 @@
     margin: auto;
 }
 
+/* Flex */
+.d-flex {
+    display: flex;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.justify-content-space-around {
+    justify-content: space-around;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.align-items-center {
+    align-items: space-around;
+}
+
+
 @media (max-width: 460px) {
     [class*="col-"] {
         width: 100%;

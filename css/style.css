@@ -113,3 +113,48 @@ section {
     color: var(--orange);
     text-decoration: underline;
 }
+
+/* Carrinho*/
+.car-icon {
+    font-size: 32px;
+}
+
+.produto-categoria-carousel-item {
+    /* display: flex;
+    justify-content: space-around;
+    align-items: center; */
+    height: 250px;
+}
+
+.produto-categoria-carousel a {
+    color: var(--blue);
+    font-size: 12px;
+}
+
+.produto-categoria-carousel {
+    position: relative;
+}
+
+.setas {
+    position: absolute;
+    top: 100px;
+    color: var(--white);
+    background-color: #ffffff55;
+    width: 50px;
+    height: 100px;
+    padding-top: 25px;
+    padding-left: 5px;
+}
+
+.setas i {
+    font-size: 54px;
+    color: var(--white);
+}
+
+.setas-right {
+    right: 5px;
+}
+
+.setas-left {
+    left: 5px;
+}
