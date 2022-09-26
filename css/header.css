@@ -14,7 +14,7 @@ header {
 
 .formPerquisa {
     background-color: var(--white);
-    border-radius: 10px;
+    border-radius: 15px;
 }
 
 .formPerquisa {
@@ -31,10 +31,10 @@ header {
 
 .formPerquisa select {
     background-color: #dadada;
-    padding-left: 10px;
-    width: 35%;
+    padding-left: 15px;
+    width: 25%;
     border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
+    border-bottom-left-radius: 9spx;
 }
 
 .formPerquisa input {
@@ -55,7 +55,7 @@ header {
     }
 
     .formPerquisa input {
-        width: 85%;
+        width: 80%;
         border-top-left-radius: 10px;
         border-bottom-left-radius: 10px;
         padding-left: 10px;
