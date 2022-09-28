@@ -144,6 +144,7 @@
 }
 
 
+
 @media (max-width: 460px) {
     [class*="col-"] {
         width: 100%;

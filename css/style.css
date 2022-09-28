@@ -5,6 +5,7 @@ body {
     font-family: var(--font-arial);
     font-size: var(--fs-12);
     background-color: var(--gray);
+    color: var(--black);
 }
 
 .menu a {
@@ -37,7 +38,7 @@ nav .promocional img {
 }
 
 /* section */
-section {
+.main-produtos {
     background-image: linear-gradient(transparent, var(--gray) 30%);
     position: relative;
     top: -250px;
@@ -46,6 +47,20 @@ section {
 /* Produtos */
 .produto {
     padding: 0 5px;
+}
+
+.produto h1 {
+    font-size: var(--fs-lg) !important;
+}
+
+.produto h2 {
+    font-size: var(--fs-md);
+    font-weight: 600;
+}
+
+h3 {
+    font-size: var(--fs-xs);
+    font-weight: 600q;
 }
 
 .produto a {
