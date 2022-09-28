@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LojaWEB: onde vende tudo!</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.6.0/css/all.min.css">
+
+<!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet"> -->
+
+<!-- <link rel="stylesheet" href="/libs/css/bootstrap.min.css"> -->
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+<link rel="stylesheet" href="../css/root.css">
+<link rel="stylesheet" href="../css/colors.css">
+<link rel="stylesheet" href="../css/header.css">
+<link rel="stylesheet" href="../css/style.css">
+<link rel="stylesheet" href="../css/pages/carinho.css">
+</head>
+
+<body class="black">
+    <main>
+        <header class="row">
+            <div class="logo col-2">
+                <img src="../img/logo.png" alt="logomarca Amazon" height="50">
+            </div>
+            <div class="localizacao col-2">
+                <div>
+                    <i class="fa fa-map-marker-alt"></i>
+                    <!-- <img src="./img/map-svgrepo-com.svg" alt=""> -->
+                </div>
+                <div>
+                    <span>Olá</span>
+                    <span>Selecione o endereço</span>
+                </div>
+            </div>
+            <div class="pesquisa col-4">
+                <form action="" class="formPerquisa">
+                    <label for="selectTipo"></label>
+                    <select name="tipoProduto" id="selectTipo" title="Tipo do produto">
+                        <option value="0" selected>
+                            Todos
+                        </option>
+                        <option value="1">
+                            Eletrônicos
+                        </option>
+                        <option value="2">
+                            Casa
+                        </option>
+                    </select>
+
+                    <label for="nomeProduto"></label>
+                    <input type="text" name="nomeProduto" id="nomeProduto" title="Nome do Produto"
+                        placeholder="Nome do produto">
+
+                    <!-- <label for=""></label> -->
+                    <!-- <input type="submit" value=""> -->
+                    <button type="submit" title="Fazer Pesquisa">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </form>
+            </div>
+            <div class="login col-2">
+                <span>
+                    Olá, faça seu login
+
+                </span>
+
+
+                <span>
+                    Contas e Listas
+                </span>
+            </div>
+            <div class="pedidos col-1">
+                <span>Devoluções</span>
+                <span>e Pedidos</span>
+            </div>
+            <div class="carrinho col-1">
+
+                <span>
+                    <a href="/pages/produto_carinho.html" title="carinho">
+                        0
+
+                    </a>
+                </span>
+
+                <span class="car-icon"></a>
+
+                    <i class="fab fa-opencart"></i>
+                </span>
+            </div>
+
+        </header>
+
+        <nav class="row bg-blue">
+            <ul class="menu white col-8">
+                <li>
+                    <button title="menu">
+                        <i class="fa fa-solid fa-bars"></i>
+                        <span>Todos</span>
+                    </button>
+                </li>
+                <li>
+                    <a href="">
+                        Venda na Amazon
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        Mais Vendidos
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        Prime
+                        <i class="fa fa-solid fa-caret-down"></i>
+                    </a>
+                </li>
+            </ul>
+
+            <ul class="menu white col-4 promocional right">
+                <li>
+                    <a href="promocional.html">
+                        <img src="../img/salão.jpg" alt="promocional" height="30" class="w-100">
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <section class=" section1 bg-body">
+            <div class="titulo">
+                <h1>Carrinho de compra</h1>
+                <hr>
+            </div>
+            <div class="tv d-flex p-1">
+
+                <div>
+                    <img src="/img/fotos carrinho/tv.jpg " alt="tv" height="200">
+                </div>
+                <div>
+                    2021 Smart TV LG 43" Full HD 43LM6370 WiFi Bluetooth HDR ThinQAI compatível com Inteligência
+                    Artificial
+                </div>
+            </div>
+            <div class="estoque d-flex p-1">
+                em estoque
+            </div>
+            <div class="deletar">
+                Excluir
+            </div>
+            <div class="guarda">
+                Salvar para mais tarde
+            </div>
+
+            <div class="preco">
+                <div>
+                    2600 RS
+                </div>
+
+                <div>
+                    a vista ou em até 10x de 260,00 sem juros
+                </div>
+            </div>
+
+
+            <div class="volume d-flex ">
+                <form action="" class="quantidade">
+                    <label for="selectTipo"></label>
+                    <select name="quantidade" id="selectTipo" title="valores">
+                        <option value="0" selected>
+                            Qantidade
+                        </option>
+                        <option value="1">
+                            1
+                        </option>
+                        <option value="2">
+                            2
+                        </option>
+                        <option value="3">
+                            3
+                        </option>
+
+                    </select>
+
+                </form>
+            </div>
+            <hr>
+        </section>
+        <section class="parte2 bg-body d-flex p-4">
+            <div>
+                <img src="/img/fotos carrinho/71b7TxaOKpL._AC_AA180_.jpg" alt="suporte" height="200">
+            </div>
+            <div>
+                Suporte de TV para montagem Dream Full Motion TV com braços articulados para a maioria dos LEDs de 17-39
+                polegadas, TV
+                LCD,
+            </div>
+
+            <div class="valor">
+                <div>
+                    560,00RS
+                </div>
+                <div>
+                    a vista ou em até 10x de 56,00 sem juros
+                </div>
+            </div>
+
+
+
+        </section>
+
+
+    </main>
+
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <script src="./libs/js/bootstrap.bundle.min.js"></script> -->
+<!-- <script src="./libs/js/popper.min.js"></script> -->
+<!-- <script src="./libs/js/bootstrap.min.js.map"></script>  -->
+<!-- <script src="/libs/js/bootstrap.min.js"></script> -->
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+    crossorigin="anonymous"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+    crossorigin="anonymous"></script>
+
+
+
+
+</htmt

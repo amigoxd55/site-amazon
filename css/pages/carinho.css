@@ -1,0 +1,47 @@
+.parte2 {
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 1400px;
+    height: 480px;
+}
+
+.section1 {
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 1400px;
+    height: 480px;
+
+}
+
+.tv {
+    padding-left: 20px;
+}
+
+.preco {
+    padding: 10px;
+    text-align: end;
+
+}
+
+.p {
+    margin-left: 40px;
+}
+
+.estoque {
+    color: rgba(16, 182, 79, 0.822);
+
+
+}
+
+.deletar {
+    color: #26b9fddc;
+}
+
+.guarda {
+    color: #26b9fddc;
+}
+
+.valor {
+    padding: 10px;
+    text-align: end;
+}
