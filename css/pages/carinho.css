@@ -1,15 +1,18 @@
 .parte2 {
+    width: 25%;
+    height: auto;
+    margin-left: 70%;
     margin-top: 20px;
-    margin-left: 20px;
-    width: 1400px;
-    height: 480px;
 }
+
+
+
 
 .section1 {
     margin-top: 20px;
     margin-left: 20px;
-    width: 1400px;
-    height: 480px;
+    width: 950px;
+    height: 900px;
 
 }
 
@@ -39,9 +42,4 @@
 
 .guarda {
     color: #26b9fddc;
-}
-
-.valor {
-    padding: 10px;
-    text-align: end;
 }

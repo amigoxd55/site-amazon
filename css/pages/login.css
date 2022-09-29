@@ -1,11 +1,43 @@
 section {
-    width: 100%;
-    max-width: 500px;
+    /* width: 100%; */
+    max-width: 350px;
     margin: auto;
-    padding: 50px;
 
+}
+
+.login-content {
+    padding: 20px;
+    border: solid 1px var(--black);
+    border-radius: 5px;
 }
 
 h2 {
     /* padding: 30px 0; */
+}
+
+
+
+.login-content-novo {
+    padding: 0x;
+
+    text-align: center;
+
+}
+
+.login-content-novo hr {}
+
+.login-content-novo div {
+    background-color: var(--white) !important;
+    z-index: 1000;
+    width: 120px;
+    margin: auto;
+    position: relative;
+    top: 25px;
+}
+
+.login-content-novo p {
+    background-color: var(--white);
+    position: absolute;
+    left: 40%;
+    transform: translate();
 }
