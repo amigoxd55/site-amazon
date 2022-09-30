@@ -53,3 +53,11 @@
 .bg-red {
     background-color: var(--red);
 }
+
+.bg-gray {
+    border: solid var(--gray);
+}
+
+.bg-bottom-gray {
+    border-bottom: solid var(--gray);
+}
